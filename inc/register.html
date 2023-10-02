@@ -14,19 +14,19 @@
         <option value="keine">-</option>
       </select>
       <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname" placeholder="Max">
+      <input type="text" id="fname" name="fname" placeholder="Max" required>
       <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname" placeholder="Mustermann">
+      <input type="text" id="lname" name="lname" placeholder="Mustermann" required>
 
       <label for="fname">Email:</label>
-      <input type="email" id="email" name="email"/>
+      <input type="email" id="email" name="email" required>
       <label for="fname">Username:</label>
-      <input type="text" id="uname" name="uname">
+      <input type="text" id="uname" name="uname" required>
       <label for="fname">Passwort:</label>
-      <input type="password" id="pwd" name="pwd"/>
+      <input type="password" id="pwd" name="pwd" required minlength="5" maxlength="30">
       <label for="fname">Passwort erneut eingeben:</label>
-      <input type="password" id="pwd_2" name="pwd_2"/>
-      <input type="submit" value="Register now!" />
+      <input type="password" id="pwd_2" name="pwd_2" required minlength="5" maxlength="30">
+      <input type="submit" value="Register now!">
     </form>
   </body>
 </html>
